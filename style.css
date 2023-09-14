@@ -7,7 +7,7 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(#8ECDDD, #22668D);
 }
 
 button {
@@ -21,7 +21,7 @@ button {
   align-items: center;
   flex-direction: column;
   border: 1px solid #333;
-  background: rgba(255, 255, 255, 0.3);
+  background: linear-gradient(#FFCC70, #FFFADD);
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
@@ -34,4 +34,34 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+
+button{
+  background-color: rgb(236, 99, 99);
+  color: white;
+  border-radius: 5px;
+  float: right;
+  font-weight: bold;
+}
+
+input[type=submit]{
+  background:linear-gradient(rgb(142, 205, 221), rgb(34, 102, 141));
+  
+  border:#333;
+  color: black;
+  padding: 7px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+input[type=text]{
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#prio{
+  border-radius: 5px;
+  padding: 5px 5px;
+
 }
