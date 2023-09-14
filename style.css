@@ -54,6 +54,9 @@ input[type=submit]{
   cursor: pointer;
 }
 
+label{
+  font-weight: 600;
+}
 
 input[type=text]{
   padding: 5px 10px;
